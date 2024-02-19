@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <Info>Multimea U se numeste multimea</Info>
+      <Answers>
+        <Answer>
+          <Info>varfurilor sau nodurilor</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>muchiilor sau arcelor</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>26</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Un graf neorientat cu 7 noduri, numerotate de la 1 la 7 are muchiile [1,5], [2,3], [2,4], [2,5], [3,4], [4,5], [4,7], [5,6], [5,7]. Câte cicluri elementare distincte există în graf? Două cicluri sunt distincte dacă diferă prin cel puţin o muchie.</Info>
+      <Answers>
+        <Answer>
+          <Info>7</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>14</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>5</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>4</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>40</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Câte grafuri neorientate, distincte, cu 5 vârfuri, se pot construi?</Info>
+      <Answers>
+        <Answer>
+          <Info>15</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>5^2</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>5^3</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>28</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Urmatoarele afirmatii despre matricea de adiacenta sunt corecte:</Info>
+      <Answers>
+        <Answer>
+          <Info>matricea de adiacență este simetrică față de diagonala principală;</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>elementele de pe diagonala principală sunt 0;</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>gradul unui vârf x este egal cu numărul de elemente 1 de pe linia (sau coloana) x;</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>suma tuturor elementelor din matricea de adiacență a unui graf neorientat este egală cu dublul numărului de muchii din graf.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Multi</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Urmatoarele afirmatii sunt corecte:</Info>
+      <Answers>
+        <Answer>
+          <Info>un vârf cu gradul 0 se numește izolat</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>un vârf cu gradul 1 se numește terminal.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>gradul maxim al unui vârf într-un graf cu n vârfuri este n-2</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Câte grafuri neorientate, distincte, cu 8 vârfuri se pot construi?</Info>
+      <Answers>
+        <Answer>
+          <Info>4^16</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>4^14</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>4^12</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>45</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Se consideră un graf neorientat cu 10 noduri și 7 muchii. Care este numărul maxim de componente conexe din care poate fi format graful?</Info>
+      <Answers>
+        <Answer>
+          <Info>2</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>6</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>35</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <Info>Care este numărul maxim de componente conexe pe care le poate avea un graf neorientat cu 20 noduri și 12 muchii?</Info>
+      <Answers>
+        <Answer>
+          <Info>15</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>5</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>4</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>32</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+  </Questions>
+</Data>
